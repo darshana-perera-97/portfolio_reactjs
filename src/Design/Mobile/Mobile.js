@@ -1,7 +1,30 @@
-import React from 'react'
+import React from "react";
+import AnimatedText from "../DesktopComponents/AnimatedText";
+import CvDownload from "../Common/CvDownload";
+import Logo from "../Common/Logo";
+import AnimatedText2 from "../MobileComponent/AnimatedText2";
 
 export default function Mobile() {
   return (
-    <div>Mobile</div>
-  )
+    <div style={{ padding: "20px 20px", background: "#1d172f" }}>
+      <Logo />
+      <div
+        style={{ display: "flex", justifyContent: "end", marginTop: "15px" }}
+      >
+        <CvDownload />
+      </div>
+      <div>
+          <AnimatedText2 />
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            margin: "40px 0px",
+          }}
+        >
+          <div id="proPic" style={{ height: "35vh", width: "35vh" }}></div>
+        </div>
+      </div>
+    </div>
+  );
 }
