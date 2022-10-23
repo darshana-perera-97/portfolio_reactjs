@@ -3,6 +3,7 @@ import React from "react";
 import Logo from "../Common/Logo";
 import CvDownload from "../Common/CvDownload";
 import AnimatedText from "../DesktopComponents/AnimatedText";
+import IconSetD from "../DesktopComponents/IconSetD";
 
 export default function Desktop() {
   return (
@@ -28,6 +29,20 @@ export default function Desktop() {
         >
           <AnimatedText />
           <div id="proPic"></div>
+        </div>
+        <div style={{ color: "white", padding: "80px" }}>
+          <p style={{ textAlign: "center", fontSize: "50px", opacity: "0.7" }}>
+            Contact Me
+          </p>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              marginTop: "10px",
+            }}
+          >
+            <IconSetD />
+          </div>
         </div>
       </div>
     </div>
