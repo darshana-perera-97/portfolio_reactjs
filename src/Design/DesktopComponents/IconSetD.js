@@ -17,19 +17,19 @@ export default function IconSetD() {
       <a href="">
         <AiFillFacebook />
       </a>
-      <a href="">
+      <a href="ds.perera.1997@gmail.com">
         <AiFillMail />
       </a>
-      <a href="">
+      <a href="https://www.linkedin.com/in/darshana-perera-/">
         <AiFillLinkedin />
       </a>
-      <a href="">
+      <a href="https://github.com/darshana-perera-97">
         <FaGitSquare />
       </a>
       <a href="">
         <FaInstagramSquare />
       </a>
-      <a href="">
+      <a href="https://stackoverflow.com/users/20057317/darshana-perera">
         <ImStackoverflow />
       </a>
     </div>
