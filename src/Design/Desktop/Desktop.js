@@ -5,6 +5,7 @@ import CvDownload from "../Common/CvDownload";
 import AnimatedText from "../DesktopComponents/AnimatedText";
 
 import AboutmeD from "../DesktopComponents/AboutmeD";
+import Skills from "../DesktopComponents/Skills";
 
 export default function Desktop() {
   return (
@@ -44,6 +45,7 @@ export default function Desktop() {
           >
             Skills & Education
           </p>
+          <Skills />
         </div>
       </div>
     </div>
