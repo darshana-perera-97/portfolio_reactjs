@@ -3,6 +3,7 @@ import CvDownload from "../Common/CvDownload";
 import Logo from "../Common/Logo";
 import AboutMeM from "../MobileComponent/AboutMeM";
 import AnimatedText2 from "../MobileComponent/AnimatedText2";
+import SkillsM from "../MobileComponent/SkillsM";
 export default function Mobile() {
   return (
     <div style={{ padding: "20px 20px", background: "#1d172f" }}>
@@ -25,6 +26,7 @@ export default function Mobile() {
         </div>
       </div>
       <AboutMeM />
+      <SkillsM />
     </div>
   );
 }

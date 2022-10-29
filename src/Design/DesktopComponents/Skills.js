@@ -42,7 +42,9 @@ export default function Skills() {
             <p>Graphic Designer</p>
           </li>
           <ul>
-            <li style={{ color: "white", fontSize: "20px" }}>Adobe Photoshop</li>
+            <li style={{ color: "white", fontSize: "20px" }}>
+              Adobe Photoshop
+            </li>
             <li style={{ color: "white", fontSize: "20px" }}>Corel Draw</li>
           </ul>
           <li style={{ color: "white", fontSize: "25px" }}>
@@ -73,6 +75,17 @@ export default function Skills() {
               <p>
                 Trincomalee Campus EUSL
                 <br /> from March-2019 to present
+              </p>
+            </li>
+          </ul>
+          <li style={{ color: "white", fontSize: "25px" }}>
+            <p>Dip in English</p>
+          </li>
+          <ul>
+            <li style={{ color: "white", fontSize: "20px" }}>
+              <p>
+                Wayamba University Sri Lanka
+                <br /> in 2018
               </p>
             </li>
           </ul>
