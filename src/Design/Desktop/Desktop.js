@@ -39,9 +39,10 @@ export default function Desktop() {
               fontSize: "50px",
               opacity: "0.7",
               marginBottom: "50px",
+              color: "white",
             }}
           >
-            About Me
+            Skills & Education
           </p>
         </div>
       </div>
